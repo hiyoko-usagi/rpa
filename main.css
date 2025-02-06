@@ -46,8 +46,12 @@ p{
  text-align: start;
 }
 input,select{
+ -webkit-appearance: none;
+ appearance: none;
+ text-align: center;
  width: 100%;
- padding: 0.5rem 0;
+ height: 40px;
+ padding: 0.5rem;
  letter-spacing: 0.1em;
  border: 1px solid;
  border-radius: 3px;
