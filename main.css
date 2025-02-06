@@ -1,0 +1,54 @@
+@charset "utf-8";
+*{
+ margin: 0;
+ padding: 0;
+}
+body{
+ max-width: 500px;
+ text-align: center;
+ padding: 30px;
+ margin: 0 auto;
+ font-family: "Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+ letter-spacing: 0.1em;
+}
+.link,h1,h2,h3,h4{
+ margin-bottom: 20px;
+}
+h1{
+ font-size: 4rem;
+}
+select,.subtitle{
+ font-size: 0.8rem;
+}
+h3{
+ font-size: 1.8rem;
+ font-weight: normal;
+}
+h4{
+ font-size: 1.2rem;
+ font-weight: normal;
+}
+p{
+ font-size: 0.9rem;
+ line-height: 2;
+}
+.link a{
+ font-size: 0.8rem;
+ color: rgba(0,101,128,1);
+}
+small{
+ font-size: 0.5rem;
+}
+.button,select,section,header{
+ margin-bottom: 100px;
+}
+p{
+ text-align: start;
+}
+input,select{
+ width: 100%;
+ padding: 0.5rem 0;
+ letter-spacing: 0.1em;
+ border: 1px solid;
+ border-radius: 3px;
+}
